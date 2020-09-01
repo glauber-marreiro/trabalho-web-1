@@ -1,0 +1,22 @@
+.btn{
+    font-family: arial;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn-blue{
+    background: blue;
+    color:#0000ff;
+    box-shadow: blue;
+}
+
+.btn-orange{
+    background: orange;
+    color:#ffa500;
+    box-shadow: orange;
+}

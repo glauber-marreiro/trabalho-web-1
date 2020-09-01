@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Minha Pagina</title>
+    <style type="text/css">
+       .menu ul li{
+    background-color: #6da3f9;
+    float: left;
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    position: relative;
+}
+
+.menu ul li:hover{
+    background-color: #2c69cc;
+}
+
+.menu ul{
+    padding: 0px;
+}
+
+.menu ul ul{
+    display: none;
+}
+
+.menu ul li:hover > ul{
+    display:block;
+}
+
+.menu ul ul ul{
+    margin-left: 201px;
+    top: 0px;
+    position: absolute;
+}
+
+.menu ul ul li:hover{
+    background-color: #144aa0;
+}
+
+.menu ul ul ul li:hover{
+    background-color: #062a66;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+    </style>
+  </head>
+
+  <body>
+      <nav class = "menu"> 
+         <ul>
+             <li>Contato
+                <ul>
+                    <li>Mural </li>
+                  </li>
+                </ul>
+         </ul>
+
+    
+  </body>
+
+  <form action="#" method="post">
+    <fieldset>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" style="width: 20em" value="">
+            </div>
+             <div class="campo">
+            <label for="mensagem">Mensagem</label>
+            <textarea rows="6" style="width: 20em" id="mensagem" name="mensagem"></textarea>
+        </div>
+            <button type="submit" name="submit">Enviar</button>
+            <button type="submit" name="submit">Excluir</button>
+
+
+    </fieldset>
+    <button class="btn btn-orange">Fórum</button>
+    <button class="btn btn-green">Minhas Atividades</button>
+    <button class="btn btn-orange">Notas</button>
+
+
+
+
+</html>
